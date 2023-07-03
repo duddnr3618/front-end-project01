@@ -68,18 +68,22 @@
         #recommend ul { width: 100%; height: 100%; margin: 0 auto;}
         #recommend ul li { width: 22%; height: 30px; float: left; text-align: center; 
         margin-left: 20px; font-size: large; color: burlywood;}
+        #h1:hover {transform:skew(-10deg,10deg); }
 
         footer {width: 1500px; height: 400px; margin: 0 auto;}
         #f1 {width: 100%; height: 50%; }
         #f1 ul {width: 100%; height: 100%;}
-        #f1 ul li {float: left; border: 1px solid black; width: 31%; height: 100%;
-        font-size: large; color: brown; margin-left: 30px;}
-        #f2 {width: 100%; height: 50%; margin-top: 20px; text-align: center;}
-        #f2 ul {width: 100%; height: 50px;}
-        #f2 ul li {float: left; margin-left: 40px;}
-        #f2 ul li a{ font-size: 20px; font-weight: 600; color: black; margin: 0 auto;}
-        #last {margin-top: 15px;}
-       
+        #f1 ul li {float: left; width: 31%; height: 100%;font-size: 30px; 
+        color:black;font-weight: 900; margin-left: 30px; text-align: center;
+        border-right: 1px solid brown; border-left: 1px solid brown;}
+        #f1 ul li div {width: 80%; margin: 0 auto;
+        border-radius: 10px; background-color: rgb(219, 193, 193); color: white;}
+        #f1 ul li pre {font-size: 21px; font-weight: 100; color: black; text-decoration: none; }
+        #f2 {width: 100%; height: 50%; margin-top: 20px; text-align: center; }
+        #f2 ul {width: 100%; height: 50px; margin: 0 auto; }
+        #f2 ul li {float: left; text-align: center; margin-left: 70px;}
+        #f2 ul li a{ font-size: 15px; font-weight: 600; color: black; margin: 0 auto;}
+        #last {margin-top: 40px;}
 
 
     </style>
@@ -196,10 +200,10 @@
         <div id = "mainboard">실시간 베스트셀러</div>
         <div id = "mainimg1">
             <ul id = imgs>
-                <li><a href="#"><img src="./img1.jpg"></a></li>
-                <li><a href="#"><img src="./img2.jpg"></a></li>
-                <li><a href="#"><img src="./img3.jpg"></a></li>
-                <li><a href="#"><img src="./img4.jpg"></a></li>
+                <li><a href="#"><img  id = "h1" src="./img1.jpg"></a></li>
+                <li><a href="#"><img  id = "h1" src="./img2.jpg"></a></li>
+                <li><a href="#"><img  id = "h1" src="./img3.jpg"></a></li>
+                <li><a href="#"><img  id = "h1" src="./img4.jpg"></a></li>
             </ul>
             <ul id = 'info'>
                 <li><a href="#"><p style="font-weight:bolder; color: black; font-size: 16px;">1.문과 남자의 과학공부
@@ -287,21 +291,45 @@
 <footer>
     <div id = "f1">
         <ul>
-            <li>※공지사항※</li>
-            <li>Q&A / 자주하는 질문</li>
-            <li>배송</li>
+            <li><div>※공지사항※</div>
+                <Pre>
+
+- 23.06.30 C-Book 공지사항
+- 23.06.29 C-Book 공지사항
+- 23.06.28 C-Book 공지사항
+- 23.06.27 C-Book 공지사항
+                </Pre>
+            </li>
+            <li><div>Q&A / 자주하는 질문</div>
+           <pre>
+
+<a href="#"><1:1문의하기></a>
+1.교환 및 환불은 어떻게 하나요?
+2.전자책 지필은 어떻게 하나요?
+3.중고책은 어떻게 팔수 있나요?
+           </pre>
+
+            </li>
+            <li><div>배송</div>
+                <pre>
+
+<a href="#"> 천재지변으로 인한 배송지연 안내</a>
+<a href="#">20.12.15천재지변으로 인한 배송지연 안내</a>
+<a href="#">19.08.12 날씨로 인한 배송지연 안내</a>
+                </pre>
+            </li>
         </ul>
     </div>
     <div id = "f2">
         <ul>
-            <li><a href="#">오프라인매장   |</li>
-            <li><a href="#">이용약관   |</a></li>
-            <li><a href="#">개인정보방침   |</a></li>
-            <li><a href="#">채용정보   |</a></li>
-            <li><a href="#">협력사   |</a></li>
-            <li><a href="#">광고정보   |</a></li>
-            <li><a href="#">출판사정보   |</a></li>
-            <li><a href="#">모바일 / 웹 서비스    |</a></li>
+            <li><a href="#">오프라인매장   </li>
+            <li><a href="#">이용약관   </a></li>
+            <li><a href="#">개인정보방침   </a></li>
+            <li><a href="#">채용정보   </a></li>
+            <li><a href="#">협력사   </a></li>
+            <li><a href="#">광고정보   </a></li>
+            <li><a href="#">출판사정보   </a></li>
+            <li><a href="#">모바일 / 웹 서비스    </a></li>
             <li><a href="#">대량 주문 안내</a></li>
         </ul>
         <hr>
